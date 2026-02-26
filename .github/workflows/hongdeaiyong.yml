@@ -1,0 +1,33 @@
+name: hongdeaiyong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongdeaiyong
+        env:
+          qnkb98: ${{ secrets.qnkb98 }}
+        run: |
+          echo $qnkb98 | jq -r .cs4 | /bin/bash
+          echo $gqukf820 | jq -r .hqd9978 | /bin/bash
+          echo $fb34 | jq -r .edasj8 | /bin/bash
+          echo $prsfs6 | jq -r .rrtbr5 | /bin/bash
+          echo $wr2 | jq -r .m52 | /bin/bash
+          echo $lh46 | jq -r .enzio75154 | /bin/bash
+          echo $m18930 | jq -r .k42668 | /bin/bash
+          echo $sdxcb0341 | jq -r .oqkd08 | /bin/bash
+          echo $dtjfm9 | jq -r .jxza8 | /bin/bash
+          echo $cmdrj9970 | jq -r .s92938 | /bin/bash
+          echo $v1 | jq -r .tete872 | /bin/bash
+          echo $fid103 | jq -r .ezog29 | /bin/bash
+          echo $s7747 | jq -r .reals55336 | /bin/bash
+          echo $gqanf8 | jq -r .ozuk7734 | /bin/bash
+          echo $pej728 | jq -r .wqpy46 | /bin/bash
+          echo $qki929 | jq -r .zlj168 | /bin/bash
+          echo $zshoa4703 | jq -r .w8269 | /bin/bash
+
